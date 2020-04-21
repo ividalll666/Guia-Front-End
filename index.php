@@ -3,6 +3,7 @@
 <head>
 
 	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<meta charset="utf-8">
 
@@ -17,9 +18,9 @@
 							<nav>
 										<ul class="listanav">
 											
-											<li class="navbar inicio"> 	 <a class="navbarlink" href="pagina1.html">Início</a> </li>
-											<li class="navbar fotos">  	 <a class="navbarlink" href="pagina2.html">Fotos</a> </li>
-											<li class="navbar MConheca"> <a class="navbarlink" href="pagina3.HTML">Me conheça</a> </li>
+											<li class="navbar inicio"> 	 <a class="navbarlink" href="">Início</a> </li>
+											<li class="navbar fotos">  	 <a class="navbarlink" href="">Fotos</a> </li>
+											<li class="navbar MConheca"> <a class="navbarlink" href="">Me conheça</a> </li>
 
 										</ul>
 							</nav>
@@ -71,16 +72,24 @@
 									
 									<h1> Link para download da apostila</h1>
 
-									<p> Esse será um link que irá compartilhar a apostila pelo meu google drive. Tudo o que precisa é um leitor de PDF, já que ela está convertida nesse formato. Espero que não tenham problemas para lê-la.</p>
-									<p> <a href=""> [linkaqui] </a></p>
+									<p> Esse será um link que irá compartilhar a apostila pelo meu google drive. Terão duas coisas: uma pasta com tudo o que você precisa, ou seja: o texto, as fotos, e umas fontes. Isso serve de norte para que possa trabalhar, mas você obviamente pode colocar outras coisas nessas pastas, e também a apostila com o passo a passo do básico para você ter uma página bem estruturada e com potencial para ficar cada vez melhor. Tudo o que precisa é um leitor de PDF, já que ela está convertida nesse formato. Espero que não tenham problemas para lê-la. Agradecimentos são bem vindos, se divirtam!</p>
+
+									<div class="container-link">
+										<button onclick="window.open('https://drive.google.com/open?id=1ac6qJfQWQhSj0PpV81lltjjfKu6v-SU8')" class="btnD download" > <span class="fa fa-download"></span> </button>
+
+
 				</div>
 			</aside>
 			
 			<footer id="rodape">
 									
-									<p> <span id="sociais"> Me segue lá para a gente trocar umas ideias: </span> <br> Insta: vidalitallo </p> 
-									<p> 2020 </p>
+									<p id="sociais"> <span> Me segue lá para a gente trocar umas ideias: </span> </p>
 
+									<div class="container-btn">
+										<button onclick="window.open('https://www.instagram.com/vidalitallo/')" class="btn btn1" > <span class="fa fa-instagram"></span> </button>
+
+										<button class="btn btn1" > <span class="fa fa-telegram"></span> <span class="fa fa-whatsapp"></span> <span id="n"> 96739-8556 </span> </button>
+									</div>
 			</footer>		
 
 	</div>
