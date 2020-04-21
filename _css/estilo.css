@@ -1,0 +1,328 @@
+@font-face
+{
+	font-family: 'Century Gothic';
+	src: url("_fonte/GOTHIC.otf"); 
+}
+
+@font-face
+{
+	font-family: 'Century Regular';
+	src: url("_fonte/Century.otf"); 
+}
+
+html
+{
+	font-family: 'Century Gothic', sans-serif;
+}
+
+body
+{
+	background-color: black;
+}
+
+header
+{
+	border-bottom: 1px solid white;
+}
+
+nav 
+{
+	width: 100%;
+	background-color: rgb(72,72,72);
+	margin: 0px auto;
+}
+
+.navbar
+{
+	display: inline-block;
+
+	padding: 5px;
+
+	width: 10%;
+	height: 0%;
+
+	font-family: ;
+
+	
+	
+	text-align: center;
+	transition: 0.2s;	
+
+	color: white;
+}
+
+.navbarlink
+{
+	color: white;
+	text-decoration: none;
+
+	transition: 0.3s;
+}
+
+.navbar:hover
+{
+	background-color: white;
+}
+
+.navbar:hover .navbarlink
+{
+	color: black;
+}
+
+.inicio
+{
+	margin-left: 10px;
+}
+
+.MConheca
+{
+	margin-right: 10px;
+}
+
+.listanav
+{
+	text-align: center;
+
+}
+ 
+#interface
+{
+	background-color: rgba(72,72,72,0.8);
+	width: 90%;
+	margin: -15px auto -20px auto;]
+	box-shadow: 0px 0px 8px white;
+}
+
+
+#interface header #painel
+{	
+	padding: 2px;
+	margin: auto 30% 10px 30%;
+	background-color: white;
+}
+
+#interface header #painel #titulos h1, h2
+{
+	color: black;
+	text-align: center;
+	font-family: 'Century Regular', sans-serif
+
+	
+}
+
+#interface header #titulos h1
+{
+	margin-bottom: 0px;
+	text-decoration: underline;
+	
+}
+
+#interface header #titulos h2
+{
+	margin-top: 0px;
+	font-size: 14pt;
+}
+
+#interface #secao
+{
+	display:;
+	
+	width: 100%;
+	background-color: transparent;
+
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+
+}
+
+#interface #secao #main 
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+	color: white;
+	background-color: transparent;
+}
+
+#interface #secao #main h1
+{
+	margin-top: 5%;
+	font-size: 25pt;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	font-family: 'Century Regular', sans-serif;
+
+	text-align: center;
+}
+
+#interface #secao #main p
+{
+	font-size: 13.5pt;
+}
+
+#interface #lateral
+{
+	
+	width: 100%;
+	background-color: transparent;
+
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+
+}
+
+#interface #lateral #lmain
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
+	color: white;
+	background-color: transparent;
+}
+
+#interface #lateral #lmain h1
+{
+	margin-top: 3.5%;
+	font-size: 24pt;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Century Regular', sans-serif;
+}
+
+#interface #lateral #lmain #container-foto
+{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	background-color: transparent;
+
+}
+
+#interface #lateral #lamain #container-foto #y
+{
+	position: relative;
+	display: flex;
+	transform-style: preserve-3d;
+	transform: rotate(0deg) skew(deg) ;
+
+
+}
+
+
+#interface #lateral #lmain #container-foto #y li
+{
+	position: relative;
+	list-style: none;
+	height: 600px;
+	width: 400px;
+
+}
+
+#interface #lateral #lmain #container-foto #y li:before
+{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	transform-origin: top;
+}
+
+
+#interface #lateral #lmain #container-foto #y li:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	transform-origin: right;
+
+}
+
+
+#interface #lateral #lmain #container-foto #y li span
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex !important;
+
+
+	justify-content: center;
+	align-items: center;
+	transition: 5s;
+
+	color: rgba(255,255,255, 0.2);
+
+	fonte-size: 30px !important;
+}
+
+#interface #lateral #lmain #container-foto #y li:hover span
+{
+	z-index: 1000;
+	transition: 1s;
+}
+
+#interface #lateral #lmain #container-foto #y li:hover span:nth-child(5)
+{
+	transform: translate(-41px, 0px);
+
+	opacity: 1;
+} 
+
+#interface #lateral #lmain #container-foto #y li:hover span:nth-child(4)
+{
+	transform: translate(30px, 0px);
+	opacity: 0.8;
+}
+
+#interface #lateral #lmain #container-foto #y li:hover span:nth-child(3)
+{
+	transform: translate(120px, 0px);
+	opacity: .6;
+}
+
+#interface #lateral #lmain #container-foto #y li:hover span:nth-child(2)
+{
+	transform: translate(210px, 0px);
+	opacity: 0.4;
+}
+
+#interface #lateral #lmain #container-foto #y li:hover span:nth-child(1)
+{
+	transform: translate(300px, 0px);
+	opacity: 0.2;
+}
+
+
+#interface #lateral #lmain #container-foto #y span #imagem
+{
+	width: 100%;
+	height: 100%;
+}
+
+#interface #rodape #sociais
+{
+	text-decoration: underline;
+}
+
+#interface #rodape 
+{
+	border-top: 1px solid white;
+	color: white;
+
+	clear: both;
+
+	text-align: center;
+}
