@@ -19,9 +19,9 @@
 
 							<div class="navbar">
 								
-								<button onclick="window.open()" class="button"> Home </button>
-								<button onclick="window.open()" class="button"> Fotos</button>
-								<button onclick="window.open()" class="button" > Me conheca </button>
+								<button onclick="location.reload()" class="button"> Home </button>
+								<button onclick="window.location.href ='index_trabalhos.php'" class="button"> Trabalhos </button>
+								<button onclick="window.location.href ='index_meconheca.php'" class="button" > Me conheça </button>
 
 							</div>
 

@@ -1,0 +1,213 @@
+@font-face
+{
+	font-family: 'Century Gothic';
+	src: url("_fonte/GOTHIC.otf"); 
+}
+
+@font-face
+{
+	font-family: 'Century Regular';
+	src: url("_fonte/Century.otf"); 
+}
+
+html
+{
+	font-family: 'Century Gothic', sans-serif;
+}
+
+body
+{
+	background-color: black;
+}
+
+header
+{
+	bottom: 0;
+
+}
+
+.navbar
+{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
+	background-color: white;
+}
+
+.button
+{
+
+	font-family: 'Century Gothic';
+	font-size: 13pt;
+	font-weight: bold;
+
+	width: 200px;
+	height: 50px;
+	border: 0px ;
+	color: black;
+	background-color: white;
+	cursor: pointer;
+
+	transition-duration: 500ms;
+}
+
+.button:hover
+{
+	transform: scale(1.2);
+	color: white;
+	background-color: black;
+}
+
+
+.inicio
+{
+	margin-left: 10px;
+}
+
+.MConheca
+{
+	margin-right: 10px;
+}
+
+.listanav
+{
+	text-align: center;
+
+}
+ 
+#interface
+{
+	background-color: rgba(72,72,72,0.8);
+	width: 90%;
+	margin: -15px auto -20px auto;]
+	box-shadow: 0px 0px 8px white;
+}
+
+/* <!-- SECAO PRINCIPAL --> */
+
+
+.container 
+{
+	color: white;
+	text-align: center;
+	margin: 25%;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
+
+
+/* <!-- RODAPÉ --> */
+
+#interface #rodape #sociais
+{
+	text-decoration: underline;
+}
+
+#interface #rodape 
+{
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+
+	color: white;
+
+	clear: both;
+	padding: 2%;
+	text-align: center;
+}
+
+#interface #rodape #sociais
+{
+	font-size: 130%;
+}
+
+.container-btn{
+  text-align: center;
+  margin-top: 2%;
+}
+
+.fa
+{
+	transition: 0.5s;
+}
+
+.btn{
+  border: 1px solid white;
+  background: none;
+  padding: 10px 70px;
+  font-size: 35px;
+  
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn1,.btn2{
+  color: white;
+}
+
+.btn1:hover,.btn2:hover{
+  color: #fff;
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: rgba(255,255,255,1);
+  z-index: -1;
+  transition: 0.7s;
+}
+.btn1::before
+{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before
+{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.btn1:hover::before,.btn2:hover::before
+{
+  height: 200%;
+}
+
+.btn:hover .fa-instagram
+{
+	transform: scale(1.3);
+	transform: scaleX(20px,0px);
+}
+
+.btn:hover .fa-whatsapp
+{
+		transform: scale(1.3);
+	transform: translateX(100px);	
+}
+
+.btn:hover .fa-telegram
+{
+	transform: scale(1.3);
+	transform: translateX(-100px);
+}
+
+.btn:hover  #n
+{
+	transform: scale(0.6);
+	color: white;
+}
+
+#n
+{
+	display: block;
+	text-align: center;
+	margin-top: -40px;
+	transform: scale(0.0);
+	transition: .5s;
+	color: none;
+}
