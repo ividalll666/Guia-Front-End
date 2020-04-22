@@ -247,6 +247,8 @@ input[name="a"]
 	width: 100%;
 	background-color: transparent;
 
+	overflow: hidden;
+
 }
 
 #interface #lateral #lamain #container-foto #y
