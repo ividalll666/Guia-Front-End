@@ -7,35 +7,50 @@
 
 	<meta charset="utf-8">
 
-	<title> Guia! HTML e CSS. </title>
+	<title> Guia! HTML e CSS. </title> 
 
 </head>
 
 <body>
 
 	<div id="interface">
+
 			<header>
-							<nav>
-										<ul class="listanav">
-											
-											<li class="navbar inicio"> 	 <a class="navbarlink" href="">Início</a> </li>
-											<li class="navbar fotos">  	 <a class="navbarlink" href="">Fotos</a> </li>
-											<li class="navbar MConheca"> <a class="navbarlink" href="">Me conheça</a> </li>
 
-										</ul>
-							</nav>
+							<div class="navbar">
+								
+								<button onclick="window.open()" class="button"> Home </button>
+								<button onclick="window.open()" class="button"> Fotos</button>
+								<button onclick="window.open()" class="button" > Me conheca </button>
 
-							
-
-							<div id="painel">
-									
-									<hgroup id = "titulos">
-											<h1> Guia de HTML CSS e JS!</h1>
-
-											<h2> Com muito carinho e muito esforço. </h2>
-									</hgroup>
 							</div>
 
+							<div class="slidershow middle">
+
+								<div class="slides">
+
+									<input type="radio" name="a" id="a1" checked>
+									<input type="radio" name="a" id="a2" >
+									<input type="radio" name="a" id="a3" >
+
+
+									<div class="slide s1"> <img
+									src="_imagem/banner.jpg">  </div> <div class="slide">  <img
+									src="_imagem/ss2.png">     </div> <div class="slide">  <img
+									src="_imagem/ss3.png">     </div>
+
+								</div>
+							
+
+							<div class="container-navigation">
+
+								<label for="a1" class="nav-button"></label>
+								<label for="a2" class="nav-button"></label>
+								<label for="a3" class="nav-button"></label>
+
+							</div>
+
+							</div>						
 			</header>	
 
 			<section id="secao" >
